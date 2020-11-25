@@ -1,0 +1,278 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.helpmefund"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/md/amcrest/projects/react_native/HMF/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/md/amcrest/projects/react_native/HMF/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+13-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:5:5-72
+13-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:5:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:6:5-73
+14-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:6:22-71
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:7:23-63
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:8:5-82
+16-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:8:23-79
+17    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+17-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:9:5-72
+17-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:9:22-70
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:10:5-71
+18-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:10:22-69
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.54.0] /home/md/.gradle/caches/transforms-2/files-2.1/3083fe57a15cfb90f16b48920a04e5c4/flipper-0.54.0/AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.54.0] /home/md/.gradle/caches/transforms-2/files-2.1/3083fe57a15cfb90f16b48920a04e5c4/flipper-0.54.0/AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+20-->[:react-native-fingerprint-scanner] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-91
+20-->[:react-native-fingerprint-scanner] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-88
+21    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+21-->[:react-native-fingerprint-scanner] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-117
+21-->[:react-native-fingerprint-scanner] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-114
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:react-native-network-info] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-network-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+22-->[:react-native-network-info] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-network-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.android.installreferrer:installreferrer:1.0] /home/md/.gradle/caches/transforms-2/files-2.1/07df51fabcaf1b29f60be4a49646423d/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+23-->[com.android.installreferrer:installreferrer:1.0] /home/md/.gradle/caches/transforms-2/files-2.1/07df51fabcaf1b29f60be4a49646423d/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+24
+25    <application
+25-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:12:5-42:19
+26        android:name="com.helpmefund.MainApplication"
+26-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:13:7-38
+27        android:allowBackup="false"
+27-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:17:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/2f326ffad3e962a59590e052ae754247/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:15:7-41
+31        android:label="@string/app_name"
+31-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:14:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:16:7-52
+33        android:supportsRtl="true"
+33-->[com.facebook.android:facebook-android-sdk:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/fd0f45cf9f7042d63968113c6fc79f6e/facebook-android-sdk-7.1.0/AndroidManifest.xml:28:18-44
+34        android:theme="@style/AppTheme"
+34-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:18:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/home/md/amcrest/projects/react_native/HMF/android/app/src/debug/AndroidManifest.xml:7:18-53
+36        <meta-data
+36-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:19:9-107
+37            android:name="com.facebook.sdk.ApplicationId"
+37-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:19:20-65
+38            android:value="@string/facebook_app_id" />
+38-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:19:66-105
+39
+40        <activity
+40-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:20:9-23:48
+41            android:name="com.facebook.FacebookActivity"
+41-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:20:19-63
+42            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+42-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:21:13-113
+43            android:label="@string/app_name"
+43-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:23:13-45
+44            android:theme="@style/com_facebook_activity_theme" />
+44-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:33:13-63
+45        <activity
+45-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:24:7-40:18
+46            android:name="com.helpmefund.MainActivity"
+46-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:25:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+47-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:28:9-86
+48            android:label="@string/app_name"
+48-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:26:9-41
+49            android:launchMode="singleTask"
+49-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:27:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:29:9-51
+51            <intent-filter>
+51-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:30:9-33:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:31:13-65
+52-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:31:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:32:13-73
+54-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:32:23-70
+55            </intent-filter>
+56            <intent-filter>
+56-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:34:9-39:25
+57                <action android:name="android.intent.action.VIEW" />
+57-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:35:13-65
+57-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:35:21-62
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:36:13-72
+59-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:36:23-69
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:37:13-74
+60-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:37:23-71
+61
+62                <data android:scheme="helpmefund" />
+62-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:38:13-49
+62-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:38:19-46
+63            </intent-filter>
+64        </activity>
+65        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+65-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:41:7-84
+65-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:41:17-81
+66
+67        <provider
+67-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+68            android:name="com.imagepicker.FileProvider"
+68-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+69            android:authorities="com.helpmefund.provider"
+69-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+70            android:exported="false"
+70-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+74                android:resource="@xml/provider_paths" />
+74-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+75        </provider>
+76        <provider
+76-->[:react-native-webview] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+77            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+77-->[:react-native-webview] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+78            android:authorities="com.helpmefund.fileprovider"
+78-->[:react-native-webview] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+79            android:exported="false"
+79-->[:react-native-webview] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+80            android:grantUriPermissions="true" >
+80-->[:react-native-webview] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+81            <meta-data
+81-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+83                android:resource="@xml/file_provider_paths" />
+83-->[:react-native-image-picker] /home/md/amcrest/projects/react_native/HMF/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+84        </provider>
+85
+86        <activity
+86-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+87            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+87-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+88            android:excludeFromRecents="true"
+88-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+91        <!--
+92            Service handling Google Sign-In user revocation. For apps that do not integrate with
+93            Google Sign-In, this service will never be started.
+94        -->
+95        <service
+95-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+96            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+96-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+97            android:exported="true"
+97-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+98            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+98-->[com.google.android.gms:play-services-auth:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/f85bd9178dc398c6d77c48a1ecf32927/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/e1cbad5a2b92e4c4cf1ce7189e30ccc4/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/e1cbad5a2b92e4c4cf1ce7189e30ccc4/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/e1cbad5a2b92e4c4cf1ce7189e30ccc4/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/e1cbad5a2b92e4c4cf1ce7189e30ccc4/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/cddbc68edba7261450f8f80c667fe624/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/cddbc68edba7261450f8f80c667fe624/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:16.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/cddbc68edba7261450f8f80c667fe624/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+108
+109        <activity android:name="com.facebook.CustomTabMainActivity" />
+109-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:34:9-71
+109-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:34:19-68
+110        <activity
+110-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:35:9-49:20
+111            android:name="com.facebook.CustomTabActivity"
+111-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:36:13-58
+112            android:exported="true" >
+112-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:37:13-36
+113            <intent-filter>
+113-->[com.facebook.android:facebook-common:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/7636b75da929ba59aef74b44b4a0f821/facebook-common-7.1.0/AndroidManifest.xml:39:13-48:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:35:13-65
+114-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:35:21-62
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:36:13-72
+116-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:36:23-69
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:37:13-74
+117-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:37:23-71
+118
+119                <data
+119-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:38:13-49
+120                    android:host="cct.com.helpmefund"
+121                    android:scheme="fbconnect" />
+121-->/home/md/amcrest/projects/react_native/HMF/android/app/src/main/AndroidManifest.xml:38:19-46
+122            </intent-filter>
+123        </activity>
+124        <!--
+125         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+126         with the application context. This config is merged in with the host app's manifest,
+127         but there can only be one provider with the same authority activated at any given
+128         point; so if the end user has two or more different apps that use Facebook SDK, only the
+129         first one will be able to use the provider. To work around this problem, we use the
+130         following placeholder in the authority to identify each host application as if it was
+131         a completely different provider.
+132        -->
+133        <provider
+133-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:39:9-42:40
+134            android:name="com.facebook.internal.FacebookInitProvider"
+134-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:40:13-70
+135            android:authorities="com.helpmefund.FacebookInitProvider"
+135-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:41:13-72
+136            android:exported="false" />
+136-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:42:13-37
+137
+138        <receiver
+138-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:44:9-50:20
+139            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+139-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:45:13-86
+140            android:exported="false" >
+140-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:46:13-37
+141            <intent-filter>
+141-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:47:13-49:29
+142                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+142-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:17-95
+142-->[com.facebook.android:facebook-core:7.1.0] /home/md/.gradle/caches/transforms-2/files-2.1/36e4df3215cdb16fe81bdb9c97c3c70b/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:25-92
+143            </intent-filter>
+144        </receiver>
+145
+146        <activity
+146-->[androidx.biometric:biometric:1.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/7eb4500f809eb474e4d481c710fbcde9/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+147            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+147-->[androidx.biometric:biometric:1.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/7eb4500f809eb474e4d481c710fbcde9/biometric-1.0.1/AndroidManifest.xml:29:13-78
+148            android:exported="true"
+148-->[androidx.biometric:biometric:1.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/7eb4500f809eb474e4d481c710fbcde9/biometric-1.0.1/AndroidManifest.xml:30:13-36
+149            android:theme="@style/DeviceCredentialHandlerTheme" />
+149-->[androidx.biometric:biometric:1.0.1] /home/md/.gradle/caches/transforms-2/files-2.1/7eb4500f809eb474e4d481c710fbcde9/biometric-1.0.1/AndroidManifest.xml:31:13-64
+150    </application>
+151
+152</manifest>

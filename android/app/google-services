@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4925942011",
+    "firebase_url": "https://helpmefund-1604565208463.firebaseio.com",
+    "project_id": "helpmefund-1604565208463",
+    "storage_bucket": "helpmefund-1604565208463.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4925942011:android:2decb69a8a59dec1c4a85e",
+        "android_client_info": {
+          "package_name": "com.helpmefund"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4925942011-fnb4vr5rlifmik1pt9tnquc1q6cruhgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.helpmefund",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "4925942011-un9u126re86hppj26v1qj1hepko0gqmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL95OCcn-UQxczvmdVHRs8t-c7sccwI_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4925942011-un9u126re86hppj26v1qj1hepko0gqmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
